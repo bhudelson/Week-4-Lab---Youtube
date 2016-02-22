@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC96CC9E1C7A9CAA00C6B0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CC9D1C7A9CAA00C6B0CC /* AppDelegate.swift */; };
+		CC96CCA01C7A9CAA00C6B0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CC9F1C7A9CAA00C6B0CC /* ViewController.swift */; };
+		CC96CCA31C7A9CAA00C6B0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96CCA11C7A9CAA00C6B0CC /* Main.storyboard */; };
+		CC96CCA51C7A9CAA00C6B0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC96CCA41C7A9CAA00C6B0CC /* Assets.xcassets */; };
+		CC96CCA81C7A9CAA00C6B0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96CCA61C7A9CAA00C6B0CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC96CC9A1C7A9CAA00C6B0CC /* Week 4 Lab - Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 4 Lab - Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96CC9D1C7A9CAA00C6B0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC96CC9F1C7A9CAA00C6B0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC96CCA21C7A9CAA00C6B0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC96CCA41C7A9CAA00C6B0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC96CCA71C7A9CAA00C6B0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC96CCA91C7A9CAA00C6B0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC96CC971C7A9CAA00C6B0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC96CC911C7A9CA900C6B0CC = {
+			isa = PBXGroup;
+			children = (
+				CC96CC9C1C7A9CAA00C6B0CC /* Week 4 Lab - Youtube */,
+				CC96CC9B1C7A9CAA00C6B0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC96CC9B1C7A9CAA00C6B0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CC9A1C7A9CAA00C6B0CC /* Week 4 Lab - Youtube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC96CC9C1C7A9CAA00C6B0CC /* Week 4 Lab - Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CC9D1C7A9CAA00C6B0CC /* AppDelegate.swift */,
+				CC96CC9F1C7A9CAA00C6B0CC /* ViewController.swift */,
+				CC96CCA11C7A9CAA00C6B0CC /* Main.storyboard */,
+				CC96CCA41C7A9CAA00C6B0CC /* Assets.xcassets */,
+				CC96CCA61C7A9CAA00C6B0CC /* LaunchScreen.storyboard */,
+				CC96CCA91C7A9CAA00C6B0CC /* Info.plist */,
+			);
+			path = "Week 4 Lab - Youtube";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC96CC991C7A9CAA00C6B0CC /* Week 4 Lab - Youtube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96CCAC1C7A9CAA00C6B0CC /* Build configuration list for PBXNativeTarget "Week 4 Lab - Youtube" */;
+			buildPhases = (
+				CC96CC961C7A9CAA00C6B0CC /* Sources */,
+				CC96CC971C7A9CAA00C6B0CC /* Frameworks */,
+				CC96CC981C7A9CAA00C6B0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 4 Lab - Youtube";
+			productName = "Week 4 Lab - Youtube";
+			productReference = CC96CC9A1C7A9CAA00C6B0CC /* Week 4 Lab - Youtube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC96CC921C7A9CA900C6B0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Blake Hudelson";
+				TargetAttributes = {
+					CC96CC991C7A9CAA00C6B0CC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AY66978GEJ;
+					};
+				};
+			};
+			buildConfigurationList = CC96CC951C7A9CA900C6B0CC /* Build configuration list for PBXProject "Week 4 Lab - Youtube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC96CC911C7A9CA900C6B0CC;
+			productRefGroup = CC96CC9B1C7A9CAA00C6B0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC96CC991C7A9CAA00C6B0CC /* Week 4 Lab - Youtube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC96CC981C7A9CAA00C6B0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CCA81C7A9CAA00C6B0CC /* LaunchScreen.storyboard in Resources */,
+				CC96CCA51C7A9CAA00C6B0CC /* Assets.xcassets in Resources */,
+				CC96CCA31C7A9CAA00C6B0CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC96CC961C7A9CAA00C6B0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CCA01C7A9CAA00C6B0CC /* ViewController.swift in Sources */,
+				CC96CC9E1C7A9CAA00C6B0CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC96CCA11C7A9CAA00C6B0CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96CCA21C7A9CAA00C6B0CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC96CCA61C7A9CAA00C6B0CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96CCA71C7A9CAA00C6B0CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC96CCAA1C7A9CAA00C6B0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC96CCAB1C7A9CAA00C6B0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC96CCAD1C7A9CAA00C6B0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 4 Lab - Youtube/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blakehudelson.Week-4-Lab---Youtube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC96CCAE1C7A9CAA00C6B0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 4 Lab - Youtube/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blakehudelson.Week-4-Lab---Youtube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC96CC951C7A9CA900C6B0CC /* Build configuration list for PBXProject "Week 4 Lab - Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CCAA1C7A9CAA00C6B0CC /* Debug */,
+				CC96CCAB1C7A9CAA00C6B0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96CCAC1C7A9CAA00C6B0CC /* Build configuration list for PBXNativeTarget "Week 4 Lab - Youtube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CCAD1C7A9CAA00C6B0CC /* Debug */,
+				CC96CCAE1C7A9CAA00C6B0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC96CC921C7A9CA900C6B0CC /* Project object */;
+}
